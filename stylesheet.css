@@ -295,3 +295,6 @@ body {
     text-decoration: none;
     font-size: small;
 }
+  * {
+    box-sizing: border-box;
+  }
