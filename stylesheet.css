@@ -1,300 +1,242 @@
-.logo {
-    width:84px;  
-    height:95px;  
-    margin-top: 20px;
-    margin-left: 20px;
-}
-header{
- height: 65px;
- width: 100%;
- background-color: rgb(78, 163, 138);   
- position: fixed;
- top: 0;
- z-index: 10;
-}
-
-.header-left{
-    float:left;  
-    margin-top: -40px;  
-}
-.header-center {
-    float: left;
-    text-align: center;
-}
-.header-right {
-    float: right;
-    margin-right: -25px;
-}
-.header-right a:hover {
-    background-color: rgb(172, 190, 184,0.5);
-}
-.header-right a {
-    line-height: 65px;
-    padding: 0 25px;
-    color: white;
-    display: block;
-    float: left;
-    transition: all 0.5s;
-}
 body {
-    margin: 0;
-    font-family: "Lucida Grande";
-    cursor: url("cewek.ani");
-  }
-  
-  a {
-    text-decoration: none;
-  }
-    .container {
-    width: 1170px;
-    padding: 0 15px;
-    margin: 0 auto;
-    
-  }
-  .kotak{
-    background-color: aquamarine;
-    padding: 10px;
-    opacity: 0.7;
-    border-radius: 10px;
-    cursor: url("Butterfly.ani");
-  }
-    .top-wrapper {
-    padding: 180px 0 120px 0;
-    background-image: url("horse.jpg");
-    background-size: cover;
-    color: rgb(5, 5, 5);
-    text-align: center;       
-  }
-    .top-wrapper h1 {
-    opacity: 0.7;
-    font-size: 45px;
-    letter-spacing: 5px;
-    margin-bottom: 15px;
-  }
-  
-  .top-wrapper p {
-    opacity: 0.7;
-    margin-bottom: 5px;
-  }
-  .btn-wrapper {
-      margin: 20px 0;
-  }
-  .btn-wrapper p {
-      margin: 10px 0;
-  }
-  .signup {
-      background-color: rgb(10, 202, 113);
-  }
-  .facebook {
-      background-color: rgb(67, 70, 245);
-      margin-right: 10px;      
-  }
-  .twitter {
-      background-color: rgb(70, 126, 211);
-  }
-  .btn {
-    padding: 12px 24px;
-    color: white;
-    display: inline-block;
-    opacity: 0.8;
-    border-radius: 4px;    
-  }
-  .btn:hover {
-      opacity: 1;
-  }
-  .fa {
-      margin-right: 5px;
-  }
-  body {
-    margin: 0;
-    font-family: "Lucida Grande";
+    margin: 0 auto; 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 a {
     text-decoration: none;
 }
-.container-main {
-    width: 1170px;
-    padding: 0 15px;
-    margin: 0 auto;
-    
-}
-.content-wrapper {
-    height: 3350px;
-    padding-bottom: 80px;
-    background-color: rgb(192, 218, 209);
-    text-align: left;
-    margin-bottom: 0;
-    background-image: url(a-book-gd9184b9db_1920.jpg);
-    background-size: 100%;
-    color: rgb(68, 68, 66);
-}
-.heading h2 {
-    font-weight: normal;
-    background-color: cadetblue;
-    height: 55px;
+header {
+    height: 95px;
+    background-color: rgba(50, 58, 156, 0.6);
     width: 100%;
-    text-align: center;
-    letter-spacing: 2px;
-    padding-top: 20px;  
-    color: white;
-    box-shadow: 2px 3px 15px 5px yellow;
-    border-radius: 40px;
+    top: 0;
+    z-index: 0;
+    position: fixed;
+       
 }
-.copy-heading1 h3 {
-    font-weight: normal;
-    background-color: rgb(134, 120, 115);
-    height: 35px;
-    width: 99%;
-    padding: 15px 0 0 15px;
-    margin-top: 0;
+.header-left {
+    float: left;
+}
+.logo {
+    height: 94px;
+    width: 70px;
+    padding-left: 30px;
+}
+.header-center {
+    float: left;
+    padding-left: 20px;
+    padding-top: 10px;
+    color: seashell;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+.header-right {
+    float: right;    
+}
+.header-right a {
+    padding: 0px 25px;
+    color: seashell;
+    display: inline-block;
+    transition: all 0.5s;
+    line-height: 95px;
+}
+.header-right a:hover {
+    background-color: rgb(172, 190, 184,0.5);
+}
+.top-wrapper .container {
+    height: 500px;
+    width: 100%;
+    background-image: url(fantasy-gd9e0bf0c0_1920.jpg);
+    text-align: center;
+    background-size: cover;
+    padding-top: 100px;
     color: white;
 }
-.i-content {
-    height: 1000px;
-    padding-bottom: 80px;
+.kotak {
+    height: 430px;
+    width: fit-content;
+    background-color: rgb(201, 201, 201, 0.4);
+    border-radius: 20px;
+}
+.kotak h1 {
+    letter-spacing: 4px;
+    font-size: 40px;
+    margin-bottom: 10px;
+    margin-top: 30px;
+}
+.kotak p {
+    font-size: 15px;
+    margin: 30px 75px;
+    line-height: 30px;
+}
+.btn-wrapper p {
+    margin: 8px 0;
+}
+.btn-wrapper {
+    margin: 30px -40 0 0;
+} 
+.signup {
+    background-color: rgb(71, 190, 131);      
+}
+.facebook {
+    background-color: steelblue;
+    margin-right: 8px;
+}
+.twitter {
+    background-color: turquoise;
+}
+.btn {
+    color: white;
+    padding: 12px 24px;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 5px;
+}
+.btn:hover {
+    opacity: 1;
+}
+.fa {
+    margin-right: 20px;
+}
+main {
+    width: 100%;
+    height: 3770px;   
+}
+.content-wrapper .container .heading h2, .message-wrapper .container .heading h2{
+    background-color: rgb(57, 26, 128, 0.5);
     text-align: center;
-    margin-bottom: 0;
+    font-size: 20px;
+    height: 45px;
+    margin: 10px 0 0px 12px;
+    padding-top: 15px;   
+    
+    width: 98%;
+}
+.content-wrapper .container .copy-heading1 h3, .content-wrapper .container .copy-heading2 h3 {
+    background-color: rgba(17, 99, 252, 0.5);
+    text-align: left;
+    font-size: 15x;
+    height: 40px;
+    margin-top: 8px;
+    margin-right: -40px;
+    margin-left: 12px;
+    padding-top: 15px;   
+    padding-left: 20px;   
+    padding-right: 20px; 
+    width: 95%;
+}
+.i-contents {
+    width: 100%;
+    height: 1600px;
+    background-image: url(a-book-gd9184b9db_1920.jpg);
+    margin-left: 12px;
+    padding-right: -10px;
+}
+.content {
+    box-sizing: border-box;
+    width: 45%;
     
 }
-
-.i-contents, .e-contents{
-    margin-right: -100px;
-}
-
-.content {
-    width: 45%;
-    float: left;
-    padding-right: 30px;
-    padding-bottom: 50px;
-}
-.content-icon {
-    margin-top: 30px;   
-}
-.content-image img:hover{
-    transform: rotateY(360deg);
-}
-.content-image img{
-    transition: transform 2s;
-}
-.content-image img {
+.content-icon img {
     height: 150px;
     width: 150px;
-    float: left;   
+    float: left;
     padding-right: 10px;
-    cursor: url("bintang.ani");
 }
-.content-title h4 {
-    display: block;
-    margin: 0;
-    background-color: yellow;
+.i-contents .content {
+    float: left;
+}
+.content-icon {
+    display: block;    
+}
+.content-title, .content-author {
+    padding-left: 80px;   
+     
+}
+.content-title h4, .content-author p {
+    background-color: rgb(58, 14, 58,0.7);
+    height: 30px;
+    color: white;
+    border-radius: 10px;
+    width: 80%;
     text-align: center;
+    border-bottom: 2px solid rgb(55, 32, 109, 0.7);
+    padding-top: 3px;
+    margin-left: 100px;
 }
 .content-author p {
-    margin-top: 0;
-    background-color: yellow;
-    text-align: center;
+    margin-top: -20;
 }
-.txt-contents p, .selengkapnya a{
-    font-size: small;
-    background-color: aquamarine;
-    border-radius: 5px;
-    padding: 5px;
+.e-contents {
+    width: 100%;
+    height: 1700px;
+    background-image: url(a-book-gd9184b9db_1920.jpg);
+    margin-left: 12px;
+    padding-right: -10px;
 }
-.selengkapnya{
-    margin-right: 250px;
-    padding: 5px;
-    margin-left: 155px;
-    text-decoration: underline;
-    color: blue;
+.e-contents .content {
+    float: left;
 }
-.copy-heading2 h3 {
-    font-weight: normal;
-    background-color: rgb(134, 120, 115);
-    height: 35px;
-    width: 99%;
-    padding: 15px 0 0 15px;
-    margin-top: 1600px;
-    text-align: left;
-    color: white;
-}
-.message-wrapper {
-    height: 200px;
-    padding-bottom: 50px;
-    background-color: rgb(192, 218, 209, 0.5);
-    text-align: center;
-    margin-top: 20px;
+.message-wrapper .container {
+    height: 250px;
+    width: 100%;
     background-image: url(photoshop-g50c15bfa8_1920.jpg);
     background-size: cover;
-    top: 0;
+    margin-bottom: 0;
 }
-.heading1 h2 {
-    font-weight: normal;
-    background-color: cadetblue;
-    height: 55px;
-    width: 100%;
+.container .heading h2 {
+    color: white;
+}
+.message-wrapper .container .copy-heading {
     text-align: center;
-    letter-spacing: 2px;
-    padding-top: 20px;  
+    color: white;
 }
-.copy-heading {
-    color: blanchedalmond;
+.text {
+    height: 20px;
+    width: 100px;
+    border-color: 1px solid rgb(185, 184, 181);
 }
-
-body {
-    margin: 0;
-    padding: 0;
+.contact-submit {
+    height: 20px;
+    width: 70px;
+    padding-left: 10px;
+    background-color: rgb(197, 191, 191);
 }
-.header {
+.contact-submit:hover {
+    opacity: 1;
     background-color: white;
 }
-.main {
-    padding: 10px;
-}
-
-.footer-list {
-    position: relative;
-    margin: 0 auto;
+footer .container {
+    height: 200px;
     width: 100%;
-}
-.footer-content {
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    background:#f0f0f0;
-}
-.footer-content h1 {
-    color: black;
     text-align: center;
-    padding: 0px;
-    margin-bottom: 0px;
-    text-shadow: 5px 5px 5px grey;
+    background-color: thistle;
+    padding-top: 60px;
+    border-bottom: 1px solid gray;    
+    margin: 0;
 }
-.footer-content p {
-    color: black;
-    text-align: center;
-    padding: 0px;
-    margin-bottom: 0px;
+footer .container h1 {
+    font-size: 25px;
 }
-.footer-content ul {
-    margin: 0 auto;
-    padding: 1em 0;
-    text-align: center;
-    width: 100%;
+footer .container p {
+    font-size: 15px;
 }
-.footer-content li {
+.footer-list li {
     list-style-type: none;
     display: inline-block;
     padding: 0;
+    color: rgb(58, 56, 56);
+    font-size: 13px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    
 }
-.footer-content li a {
-    color: #333;
-    display: inline-block;
-    font-style: normal !important;
-    margin: 10px;
-    padding: 0;
-    text-decoration: none;
-    font-size: small;
+.footer-list li a {
+    color: rgb(66, 65, 65);
+    border-right: 1px solid gray;
+    padding-right: 10px;
 }
-  * {
-    box-sizing: border-box;
-  }
+.txt-contents p {
+    font-size: 15px;
+    margin-right: 40px;
+}
